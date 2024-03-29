@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    object-fit: contain;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    margin-right: 0;
+    font-size: 16px;
+    color: #edf0f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+.navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+    color: #0088a9;
+}
+
+header {
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.banner-card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+.banner-card {
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    margin: -150px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.italic {
+    color: gray;
+    text-align: center;
+    margin: 20px;
+    font-size: 19px;
+}
+
+.mainText {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+.Conteiner {
+    display: flex;
+    padding: 20px;
+    border: 10px;
+    column-gap: 50px;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.Conteiner img {
+    width: 100px;
+}
+
+
+.id1 {
+    margin-left: 795px;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.id2 {
+    margin-left: 115px;
+    font-size: 10px;
+}
+
+.id3 {
+    margin-left: 115px;
+    font-size: 10px;
+}
+
+.conteiner {
+    background-color: #000;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.reheader {
+    text-align: center;
+    color: gray;
+    
+}
+
+.conteiner2 {
+    background-color: #fff;
+    color: gray;
+    margin-left: 590px;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+.September {
+    padding: 10px;
+    display: inline-block;
+}
+
+.October {
+    display: inline-block;
+    padding: 10px;
+}
+
+.November {
+    padding: 10px;
+    display: inline-block;
+}
+
+.sd1 {
+    background-color: red;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.sd2 {
+    background-color: red;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.under_conteiner img {
+    width: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.LeftImage {
+    display: inline-block;
+    margin-left: 590px;
+}
+
+.under_conteinerTextLeft {
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    margin-left: 590px;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.FirstCity {
+    padding: 10px;
+    display: inline-block;
+}
+
+.dissciptLeft {
+    color: gray;
+    padding:10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+}
+.reheader1{
+    text-align: center;
+    color: gray;
+    
+}
+.under_conteinerTextMidle {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:0;
+    margin-left: 10px;
+}
+.SecondCity{
+    padding:10px;
+    display: inline-block;
+}
+.disscriptMid{
+    color: gray;
+    padding:10px;
+    display: inline-block;
+    margin: 10px;
+}
+.buttonMid{
+    padding:10px;
+    background-color: #000;
+    display: inline-block;
+    margin: 10px;
+    color:#fff;
+}
+.under_conteinerTextRight{
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 14px;
+    margin-top: 0;
+}
+.ThirdCity{
+    padding: 10px;
+    display: inline-block;
+}
+.disscriptRight{
+    color: gray;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10px;
+}
+.buttonLeft{
+    padding: 10px;
+    background-color: #000;
+    display: inline-block;
+    margin: 10px;
+    color:#fff;
+}
+.third{
+    background-color: #fff;
+    color: #000;
+}
+.details{
+    display: inline-block;
+    margin-left: 400px;
+}
+.logIn{
+    display: inline-block;
+    margin-left: 100px;
+}
+.logIn input{
+    width: 130px;
+}
+.LongIn input{
+    width: 265px;
+}
+.Lastbutton input{
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    margin-left: 863px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.LastPic img{
+    padding-left: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: 1080px;
+}
+.symbols{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.lastText{
+    text-align: center;
+    margin-top: 10px;
+}

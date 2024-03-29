@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(./images3/illustration.png), url(./images3/Vector.png),url(./images3/element.png),url(./images3/trafalgar-illustration\ sec02\ 1.png),
+    url(./images3/trafalgar-illustration\ sec03\ 1.png),url(./images3/Rectangle\ 13.png),url(./images3/bg.png);
+    background-repeat: no-repeat;
+    background-position: 780px 177px, top 965px right 1150px,top 1500px right 300px,top 2318px left 200px,top 3024px left 850px,top 3709px center,bottom;
+    height: 5870px;
+}
+
+nav img {
+    margin-left: 191px;
+    margin-top: 60px;
+    vertical-align: bottom;
+}
+
+nav p {
+    display: inline-block;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.navigation_bar a {
+    color: rgb(158, 158, 158);
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigation_bar {
+    margin-left: 950px;
+    margin-top: -15px;
+}
+
+.virtual-container {
+    width: 1540px;
+    height: 335px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.virtual-container h1 {
+    padding-top: 30px;
+    font-size: 48px;
+}
+
+.virtual-container p {
+    padding: 20px 0px;
+    color: rgb(168, 168, 168);
+    font-size: 21px;
+}
+
+.virtual-container input {
+    color: white;
+    background-color: rgb(34, 0, 128);
+    border: 0 solid aqua;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.service_container h2 {
+    font-size: 36px;
+}
+
+.service_container p {
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(160, 160, 160);
+}
+
+.service_container {
+    text-align: center;
+    width: 952px;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+
+.first-small-box {
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left:30px ;
+    padding-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 2px 5px ;
+}
+.first-small-box h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.first-small-box p{
+    color: rgb(161, 161, 161);
+}
+.first-small-box img{
+   padding-top: 40px;
+}
+.six-container{
+    text-align: center;
+}
+.learn-button input{
+    display:block ;
+    background-color: white;
+    color: rgb(108, 108, 255);
+    border: 1px solid rgb(108, 108, 255);
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 15px 45px;
+    margin: 0 auto ;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.learn-button{
+    text-align: center;
+}
+.providers-container {
+    width: 477px;
+    position: absolute;
+    right: 350px;
+    top: 2318px;
+}
+.providers-container h2{
+    padding: 30px;
+    font-size: 36px;
+}
+.providers-container img{
+    padding: 30px;
+}
+.providers-container p{
+    color: rgb(170, 170, 170);
+    font-size: 18px;
+    padding: 25px;
+}
+.providers-container input{
+    background-color: white;
+    color: rgb(108, 108, 255);
+    border: 1px solid rgb(108, 108, 255);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 15px 45px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.mobile-apps-container{
+    position: absolute;
+    top:3060px;
+    left:280px;
+    width: 400px;
+}
+.mobile-apps-container h2{
+    font-size: 36px;
+}
+.mobile-apps-container img{
+    padding: 30px 0 ;
+}
+.mobile-apps-container p{
+    color: rgb(170, 170, 170);
+    font-size: 18px;
+}
+.mobile-apps-container input{
+    background-color: white;
+    color: rgb(108, 108, 255);
+    border: 1px solid rgb(108, 108, 255);
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 15px 45px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.blue-background-container h2{
+    position: absolute;
+    top: 3788px;
+    left: 36%;
+    font-size: 36px;
+    color: white;
+}
+.blue-background-container img{
+    position: absolute;
+    top:3929px;
+    left:500px;
+}
+.blue-guy-dis{
+    color: rgb(223, 223, 223);
+    position: absolute;
+    top: 3955px;
+    left: 660px;
+    
+}
+.blue-guy-dis span{
+    font: bold;
+    font-size: 20px;
+    color: white;
+}
+.blue-back-text{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 3930px;
+    left: 1000px;
+    width: 420px;
+}
+.article-header h2{
+    text-align: center;
+    position: absolute;
+    top: 4433px;
+    display: inline-block;
+    font-size: 36px;
+    margin-left: 36%;
+}
+.article-container{
+    width: 350px;
+    height: 512px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    position: absolute;
+    top: 4596px;
+    left: 40%;
+}
+.first-wrapper,.second-wrapper,.third-wrapper{
+    border-radius: 20px;
+    background-color: rgb(255, 246, 235);
+}
+.first-wrapper img ,.second-wrapper img ,.third-wrapper img{
+    border-radius: 20px;
+}
+.first-wrapper  p,h3 ,a,.second-wrapper p,a, h3,.third-wrapper p,h3, a {
+    padding: 20px;
+    text-decoration: none;
+}
